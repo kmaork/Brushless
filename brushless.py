@@ -114,7 +114,7 @@ def demo(usb_port):
             time.sleep(1)
         motor.set_speed(-2)
         time.sleep(3)
-        motor.set_speed(-2)
+        motor.set_speed(2)
         time.sleep(3)
         motor.stop()
 
